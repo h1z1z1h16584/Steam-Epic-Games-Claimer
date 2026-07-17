@@ -1,0 +1,18 @@
+# Ignore temporary or system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts and WXT generated files
+.wxt/
+.output/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore local storage or configuration files
+.env
+.idea/
+.vscode/
+
+# Ignore source folder
+src/
